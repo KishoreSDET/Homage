@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57853" started-at="2022-08-08T00:40:00 SGT" finished-at="2022-08-08T00:40:57 SGT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@7b69c6ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="57853" started-at="2022-08-08T00:40:00 SGT" finished-at="2022-08-08T00:40:57 SGT">
+      <class name="runner.CucumberRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.CucumberRunner@7b69c6ba]" name="setUpClass" is-config="true" duration-ms="673" started-at="2022-08-08T00:40:00 SGT" finished-at="2022-08-08T00:40:00 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2f897dab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@7b69c6ba]" name="runScenario" duration-ms="29007" started-at="2022-08-08T00:40:00 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-08T00:40:29 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the new user is able to submit an Homage CarePro application successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homage CarePro Onboarding"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.CucumberRunner@7b69c6ba]" name="runScenario" duration-ms="24802" started-at="2022-08-08T00:40:29 SGT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-08T00:40:54 SGT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify that the existing user is not able to submit an Homage CarePro application due to duplication error"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Homage CarePro Onboarding"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.CucumberRunner@7b69c6ba]" name="tearDownClass" is-config="true" duration-ms="3299" started-at="2022-08-08T00:40:54 SGT" finished-at="2022-08-08T00:40:57 SGT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.CucumberRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
