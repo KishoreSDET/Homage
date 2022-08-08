@@ -242,6 +242,14 @@ public class StepDefinition extends BaseClass{
 		
 	}
 	
-	
+	@But("Mandatory fields error message should be displayed")
+	public void verifyMandatoryFieldsErrorMsg()
+	{
+		wait = new WebDriverWait(driver,30);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[@id='email-helper-text'][text()='Required']/preceding-sibling::label[@id='email-label']")));
+		boolean errorMsg=driver.findElement(By.xpath("//p[@id='email-helper-text'][text()='Required']/preceding-sibling::label[@id='email-label']")).isDisplayed();
+		Assert.assertTrue(errorMsg);
+		
+	}
 	
 }
